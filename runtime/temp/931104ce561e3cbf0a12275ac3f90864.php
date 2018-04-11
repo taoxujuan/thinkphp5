@@ -1,0 +1,259 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:80:"D:\qampp\htdocs\thinkphp_5\public/../application/index\view\package\package.html";i:1522820460;}*/ ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>包裹信息</title>
+    <meta name="keywords" content="商品">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="../favicon.ico"> 
+    <link href="/thinkphp_5/public/static/index/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="/thinkphp_5/public/static/index/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="/thinkphp_5/public/static/index/css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+    <link href="/thinkphp_5/public/static/index/css/animate.css" rel="stylesheet">
+    <link href="/thinkphp_5/public/static/index/css/style.css?v=4.1.0" rel="stylesheet">
+    <style type="text/css">
+        .col-sm-2{
+            padding-left: 10px;
+        }
+        #start,#end{
+		    border-color: #cfdadd;
+		    border-radius: 2px;
+		    height: 30px;
+		    padding: 6px 12px;
+		    font-size: 14px;
+		    line-height: 1.42857143;
+		    color: #555;
+		    background-color: #fff;
+		    background-image: none;
+		    border: 1px solid #cfdadd;
+		    box-shadow: none;
+		    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+		    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        }
+    </style>
+</head>
+
+<body class="gray-bg">
+    <!-- 修改modal -->
+    <div class="modal fade" id="myModal"  tabindex="1000" role='dialog' aria-hidden='true' aria-labelledby="myModalLabel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">修改商品</h4>
+                </div>
+                <div class="modal-body">
+                    <!-- 修改商品表单 -->
+                    <form id="updateFrom" class="form-horizontal">
+                        <input type="hidden" name="" id="id" value="">
+                        <div class="form-group">
+                            <label for="bar_code" class="col-sm-2 control-label">商品条码</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static" id="bar_code"></p>
+                            </div>
+                        </div>                  
+                        <div class="form-group">
+                            <label for="commodity_num" class="col-sm-2 control-label">数量</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="commodity_num" value="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-info" data-dismiss="modal" onclick="updataGood()">提交更改</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- mainPage -->
+    <div class="wrapper wrapper-content animated fadeInRight" style="height:100%;">
+        <div class="ibox float-e-margins style=" style="height:100%;">
+          <!-- date插件 -->
+          <div class="pull-left" style="margin-top: 10px;margin-left: 15px;">
+                 <input name="startDate" type="text" id="start" value="">
+                 <span>~</span>
+                 <input name="endDate" type="text" id="end" value="">
+                 <button type="button" class="btn btn-info" onclick="searchTime()">查询</button>
+          </div>
+          <!-- dateend -->
+          <div class="example-wrap">
+                <table id="exampleTablePagination">
+                </table>
+          </div>
+        </div>
+    </div> 
+    <!-- 全局js -->
+    <script src="/thinkphp_5/public/static/index/js/jquery.min.js?v=2.1.4"></script>
+    <script src="/thinkphp_5/public/static/index/js/bootstrap.min.js?v=3.3.6"></script>
+    <script src="/thinkphp_5/public/static/index/js/content.js?v=1.0.0"></script>
+    <script src="/thinkphp_5/public/static/index/js/plugins/bootstrap-table/bootstrap-table.min.js"></script>
+    <script src="/thinkphp_5/public/static/index/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js"></script>
+    <script src="/thinkphp_5/public/static/index/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+    <script type="text/javascript" src="/thinkphp_5/public/static/index/js/plugins/layer/layer.min.js"></script>
+    <script type="text/javascript" src="/thinkphp_5/public/static/index/js/plugins/layer/laydate/laydate.js"></script>
+    <script type="text/javascript">
+        // var a_token = window.sessionStorage.getItem('token') || {};
+        $(function () {
+            initTable();
+            var start = {
+            	elem: '#start',
+            	format: 'YYYY-MM-DD',
+            	max: '2099-12-30',
+            	istime: true,
+            	istoday: false,
+            	choose: function (datas){
+            		end.min = datas;
+            		end.start = datas;
+            	}
+            };
+            var end = {
+            	elem: '#end',
+            	format: 'YYYY-MM-DD',
+            	max: '2099-12-30',
+            	istime: true,
+            	istoday: false,
+            	choose: function (datas){
+            		start.max = datas;
+            	}
+            };
+            laydate(start);
+            laydate(end);
+        });
+        // 窗口改变自适应
+        $(window).resize(function () {
+            $("#exampleTablePagination").bootstrapTable('resetView');
+        });
+        // enter键关闭最新打开的layer弹框
+        $(document).on('keyup',function(e){
+              if(e.keyCode === 13){
+                  layer.close(layer.index);
+              }
+        });
+        // 页面初始化
+        function initTable() {
+          var that = this;
+            $('#exampleTablePagination').bootstrapTable('destroy');
+            $("#exampleTablePagination").bootstrapTable({
+                height:520,
+                pagination: true,
+                pageNumber: 1,      //初始化加载第一页，默认第一页
+                pageSize: 10,      //每页的记录行数（*）
+                queryParams: function queryParams(params) {
+                    var param = {    
+                      pageNumber: params.pageNumber,    
+                      pageSize: params.pageSize,
+                      searchText:params.searchText,
+                      startDate:$('#start').val(),
+                      endDate:$('#end').val() 
+                  };    
+                  return param; 
+                },
+                queryParamsType: 'unedfined',
+                sidePagination: "server", 
+                search: true,
+                url: "getPackList",
+                responseHandler: function(data) {
+                    if (data.success == 0) {
+                        return {
+                            "rows":[],
+                            "total":0
+                        }
+                    } else {
+                        return {
+                            "rows": data.rows,
+                            "total": data.total
+                        }
+                    }
+                },
+                columns: [{
+                    field: 'id',
+                    title: 'id'
+                },{
+                    field: 'site_id',
+                    title: '网店编码'
+                }, {
+                    field: 'pack_id',
+                    title: '包裹编码'
+                },{
+                    field: 'submit_time',
+                    title: '提交时间'
+                },{
+                    field: 'bar_code',
+                    title: '商品编码'
+                },{
+                    field: 'commodity_num',
+                    title: '商品数量'
+                },{
+                    field: 'oper_id',
+                    title: '操作人ID'
+                },{
+                    field: 'operation',
+                    title: '操作',
+                    formatter: function (value, row, index) {
+                        var r = '<button class="btn btn-info btn-sl" data-toggle="modal" data-target="#myModal" onclick="getDetail(\''+ index +'\')">修改</button><button class="btn btn-info btn-sl" style="margin-left:5px;" onclick="delGood(\''+ row.id +'\')">删除</button>';
+                        return r;
+                    }
+                }]
+            });  
+        };
+        // 获取当前点击数据
+        function getDetail(index) {
+            var data = $("#exampleTablePagination").bootstrapTable('getData')[index];
+            $('#id').val(data.id);
+            $('#bar_code').html(data.bar_code);
+            $('#commodity_num').val(data.commodity_num);
+        };
+        //查询时间区间
+        function searchTime(){
+        	initTable();
+        }
+        // 修改数据  商品数量
+        function updataGood() {
+            var paramArray = {
+            	id: $('#id').val(),
+                commodity_num: $('#commodity_num').val()
+            };
+            $.ajax({
+                type: "POST",
+                url: "updateNum",
+                data: paramArray,
+                success: function (res) {
+                    $('#exampleTablePagination').bootstrapTable('refresh');
+                    if (res.success) {
+                    	layer.alert('修改商品成功！')
+                    }else{
+                    	layer.alert(res.msg);
+                    }
+                }
+            });
+        };
+        //删除数据
+        function delGood(id){
+        	layer.confirm('确认要删除商品吗？', {
+	            btn : [ '确定', '取消' ]//按钮
+	        }, function(index) {
+		        $.ajax({
+	                type: "POST",
+	                url: "delPack",
+	                data: {id:id},
+	                success: function (res) {
+	                    $('#exampleTablePagination').bootstrapTable('refresh');
+	                    if (res.success) {
+	                    	layer.alert('删除商品成功！')
+	                    }else{
+	                    	layer.alert(res.msg);
+	                    }
+	                }
+	            });
+	            layer.close(index); 
+	        }); 
+        };
+    </script>
+</body>
+
+</html>

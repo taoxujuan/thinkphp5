@@ -1,0 +1,1625 @@
+---------------------------------------------------------------
+[ 2018-04-03T11:21:49+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:21:58+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=6921988370302
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` WHERE  `bar_code` = '6921988370302' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:22:06+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:24:05+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [8]未定义变量: count
+---------------------------------------------------------------
+[ 2018-04-03T11:27:57+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [8]未定义变量: count
+---------------------------------------------------------------
+[ 2018-04-03T11:28:07+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [8]未定义变量: count
+---------------------------------------------------------------
+[ 2018-04-03T11:29:11+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:29:30+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:30:00+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:30:22+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:30:27+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:30:29+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:30:30+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:30:31+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:30:34+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:30:50+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:30:58+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:32:30+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:32:37+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:32:50+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:32:54+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:33:01+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:34:43+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:34:53+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:34:54+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:34:55+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:34:56+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:34:57+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:34:59+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:00+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:00+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:01+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:04+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:06+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:07+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:09+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:10+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:13+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:14+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:15+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:16+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:17+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:21+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:22+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:23+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:24+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:25+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:26+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 1,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:26+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:38+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1&searchText=6921988370302
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` WHERE  `bar_code` = '6921988370302' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` WHERE  `bar_code` = '6921988370302' LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:50+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1&searchText=692198837030
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` WHERE  `bar_code` = '692198837030' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` WHERE  `bar_code` = '692198837030' LIMIT 0,1 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:52+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1&searchText=69219883703
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` WHERE  `bar_code` = '69219883703' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` WHERE  `bar_code` = '69219883703' LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:35:54+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1&searchText=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:39:09+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:39:19+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T11:46:40+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [0]语法解析错误: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+---------------------------------------------------------------
+[ 2018-04-03T11:46:56+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T11:47:22+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:39:10+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=4
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:39:13+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:39:17+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:39:19+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:39:28+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:39:33+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:53:29+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:54:01+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:54:07+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:54:38+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Commodity' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:55:03+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Commodity' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:55:51+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Commodity' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:56:20+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Commodity' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:56:39+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Commodity' not found
+---------------------------------------------------------------
+[ 2018-04-03T13:57:15+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Commodity' not found
+---------------------------------------------------------------
+[ 2018-04-03T14:25:01+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [0]致命错误: Call to undefined method app\index\controller\Commodity::getDataList()
+---------------------------------------------------------------
+[ 2018-04-03T14:26:27+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [64]Cannot declare class app\index\controller\Commodity because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T14:28:00+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [64]Cannot declare class app\index\controller\Commodity because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T14:28:13+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [64]Cannot declare class app\index\controller\Commodity because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T14:28:16+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [64]Cannot declare class app\index\controller\Commodity because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T14:30:58+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [64]Cannot declare class app\index\controller\Commodity because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T14:31:01+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [64]Cannot declare class app\index\controller\Commodity because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T14:32:32+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [64]Cannot declare class app\index\controller\Commodity because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T14:32:54+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [64]Cannot declare class app\index\controller\Commodity because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T14:33:29+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [64]Cannot declare class app\index\controller\Commodity because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T14:33:40+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [64]Cannot declare class app\index\controller\Commodity because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T14:34:17+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [64]Cannot declare class app\index\controller\Commodity because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T14:34:23+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [64]Cannot declare class app\index\controller\Commodity because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T14:35:00+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [64]Cannot declare class app\index\controller\Commodity because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T14:36:25+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T14:36:40+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T14:36:57+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [8]未定义变量: commodity
+---------------------------------------------------------------
+[ 2018-04-03T14:37:34+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T14:37:59+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-03T14:39:45+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T14:39:55+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T14:40:07+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 1,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T14:45:12+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [0]语法解析错误: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+---------------------------------------------------------------
+[ 2018-04-03T14:46:13+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [0]语法解析错误: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+---------------------------------------------------------------
+[ 2018-04-03T14:46:35+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [0]语法解析错误: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+---------------------------------------------------------------
+[ 2018-04-03T14:46:56+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T14:47:32+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [0]语法解析错误: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+---------------------------------------------------------------
+[ 2018-04-03T14:47:46+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [0]语法解析错误: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+---------------------------------------------------------------
+[ 2018-04-03T14:48:12+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T14:57:42+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T14:58:08+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T14:58:42+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T14:58:52+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T14:59:04+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T14:59:07+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T14:59:41+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T14:59:42+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T14:59:56+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:04:52+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:05:41+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015601s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:05:58+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:33:02+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:33:44+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:33:56+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/addCommodity
+[ error ] [0]致命错误: Call to undefined function app\index\model\msg()
+---------------------------------------------------------------
+[ 2018-04-03T15:34:17+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:34:29+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/addCommodity
+[ error ] [0]致命错误: Call to undefined function app\index\model\msg()
+---------------------------------------------------------------
+[ 2018-04-03T15:34:52+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:35:13+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/addCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `commodity` (`bar_code` , `name` , `brand_name` , `specification` , `price`) VALUES ('111' , '111' , '111' , '111' , 0) [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to undefined function app\index\model\msg()
+---------------------------------------------------------------
+[ 2018-04-03T15:36:27+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:36:38+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:36:42+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 1,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:36:45+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=3&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 2,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:36:51+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:37:49+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/addCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `commodity` (`bar_code` , `name` , `brand_name` , `specification` , `price`) VALUES ('111' , '111111' , '111' , '111111' , 0) [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to undefined function app\index\model\msg()
+---------------------------------------------------------------
+[ 2018-04-03T15:38:41+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/addCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `commodity` (`bar_code` , `name` , `brand_name` , `specification` , `price`) VALUES ('111' , '111111' , '111' , '111111' , 0) [ RunTime:0.015600s ]
+[ error ] [0]致命错误: Call to undefined function app\index\model\msg()
+---------------------------------------------------------------
+[ 2018-04-03T15:39:50+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:39:59+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/addCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `commodity` (`bar_code` , `name` , `brand_name` , `specification` , `price`) VALUES ('222' , '222' , '222' , '222' , 0) [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to undefined function app\index\model\msg()
+---------------------------------------------------------------
+[ 2018-04-03T15:41:25+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:41:37+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/addCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] INSERT INTO `commodity` (`bar_code` , `name` , `brand_name` , `specification` , `price`) VALUES ('333' , '333' , '333' , '333' , 0) [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to undefined function app\index\model\msg()
+---------------------------------------------------------------
+[ 2018-04-03T15:42:36+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ error ] [0]语法解析错误: syntax error, unexpected ')', expecting ';'
+---------------------------------------------------------------
+[ 2018-04-03T15:42:51+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:43:06+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/addCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `commodity` (`bar_code` , `name` , `brand_name` , `specification` , `price`) VALUES ('222' , '222' , '2222' , '2222' , 0) [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:43:06+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:50:58+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/addCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `commodity` (`bar_code` , `name` , `brand_name` , `specification` , `price`) VALUES ('222' , '222' , '2222' , '2222' , 0) [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:50:58+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:51:25+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:51:38+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/addCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `commodity` (`bar_code` , `name` , `brand_name` , `specification` , `price`) VALUES ('6776' , '665t' , '55gt' , '45tf' , 0) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:51:38+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:53:05+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:53:14+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/addCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `commodity` (`bar_code` , `name` , `brand_name` , `specification` , `price`) VALUES ('2s2' , 'wss' , 'wxs' , 'cds' , 0) [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: success
+---------------------------------------------------------------
+[ 2018-04-03T15:55:28+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031200s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:55:37+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/addCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `commodity` (`bar_code` , `name` , `brand_name` , `specification` , `price`) VALUES ('wss' , 'exss' , 'ess' , 'ssw' , 0) [ RunTime:0.000000s ]
+[ error ] [8]未定义数组下标: 0
+---------------------------------------------------------------
+[ 2018-04-03T15:58:26+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [0]语法解析错误: syntax error, unexpected '}'
+---------------------------------------------------------------
+[ 2018-04-03T15:58:42+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T15:58:53+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:01:21+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:01:26+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:01:34+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:01:40+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:01:48+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:01:53+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/addCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `commodity` (`bar_code` , `name` , `brand_name` , `specification` , `price`) VALUES ('1738829' , '111111' , '111' , 'xe' , 0) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:01:54+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:03+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:09+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:11+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=13&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 12,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:13+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=12&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 11,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:14+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=11&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 10,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:15+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=10&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 9,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:15+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=9&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 8,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:15+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=8&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 7,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:21+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=7&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 6,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:21+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=6&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 5,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:22+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=5&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 4,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:22+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=4&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 3,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:23+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=3&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 2,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:26+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 10,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:30+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:02:50+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:03:02+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=10&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 9,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:03:06+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=10&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 9,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:03:13+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=10&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 9,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:03:16+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 10,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:04:15+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=10&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 9,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:04:25+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:04:26+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=10&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 9,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:04:35+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:04:40+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=10&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 9,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:05:04+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=10&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 9,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:05:10+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=9&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 8,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:05:11+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=8&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 7,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:05:11+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=7&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 6,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:05:12+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:05:14+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=25
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,25 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:05:19+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:12:50+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=10&pageSize=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 9,1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:13:11+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:21:08+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:21:31+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:21:54+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:22:02+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:22:50+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:23:09+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/addCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `commodity` (`bar_code` , `name` , `brand_name` , `specification` , `price`) VALUES ('1738829' , '维达面巾纸' , '111' , 'xe' , 0) [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:23:09+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:23:48+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:24:05+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/updateCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `commodity`  SET `bar_code`='1738829',`name`='哇哇哇',`brand_name`='111',`specification`='xe'  WHERE  `bar_code` = '1738829' [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:24:05+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:24:49+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:25:01+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/updateCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `commodity`  SET `bar_code`='1738829',`name`='哇哇哇',`brand_name`='111',`specification`='则无限额'  WHERE  `bar_code` = '1738829' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:25:01+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:25:43+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/updateCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] UPDATE `commodity`  SET `bar_code`='1738829',`name`='哇哇哇',`brand_name`='111扣扣OK',`specification`='则无限额'  WHERE  `bar_code` = '1738829' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:25:43+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:27:03+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:27:09+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:28:18+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:28:24+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/updateCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `commodity`  SET `bar_code`='1738829',`name`='哇哇哇',`brand_name`='q',`specification`='则无限额'  WHERE  `id` = 5498 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:28:24+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:34:02+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:34:37+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:35:00+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:35:14+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:35:32+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:35:38+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:43:27+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:43:44+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:43:46+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/delCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] DELETE FROM `commodity`    WHERE  `id` = 5498 [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: code
+---------------------------------------------------------------
+[ 2018-04-03T16:45:11+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:45:15+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:45:40+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:45:43+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015601s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:46:15+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:46:18+08:00 ] 192.168.70.101 POST /thinkphp_5/public/index.php/index/commodity/delCommodity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] DELETE FROM `commodity`    WHERE  `id` = 5497 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:46:19+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:46:59+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:47:12+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 10,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:47:14+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:47:15+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 10,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:47:16+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:47:17+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=2&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 10,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:47:19+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:47:22+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:48:17+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:48:20+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:48:27+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:48:33+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:55:31+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:55:33+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/index.html
+[ error ] [0]模板文件不存在:D:\qampp\htdocs\thinkphp_5\public/../application/index\view\same\index.html
+---------------------------------------------------------------
+[ 2018-04-03T16:55:34+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/index.html
+[ error ] [0]模板文件不存在:D:\qampp\htdocs\thinkphp_5\public/../application/index\view\same\index.html
+---------------------------------------------------------------
+[ 2018-04-03T16:57:32+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/index.html
+[ error ] [0]模板文件不存在:D:\qampp\htdocs\thinkphp_5\public/../application/index\view\same\index.html
+---------------------------------------------------------------
+[ 2018-04-03T16:58:05+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/index.html
+[ error ] [0]模板文件不存在:D:\qampp\htdocs\thinkphp_5\public/../application/index\view\same\index.html
+---------------------------------------------------------------
+[ 2018-04-03T16:58:24+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T16:58:46+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:00:28+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:00:45+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:15:53+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:15:56+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/same.html
+[ error ] [64]Cannot declare class app\index\controller\Same because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T17:16:45+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:16:47+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/same.html
+[ error ] [64]Cannot declare class app\index\controller\Same because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T17:16:55+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:16:57+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/same.html
+[ error ] [64]Cannot declare class app\index\controller\Same because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T17:17:13+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:17:17+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/same.html
+[ error ] [64]Cannot declare class app\index\controller\Same because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T17:19:28+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:19:30+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/same.html
+[ error ] [64]Cannot declare class app\index\controller\Same because the name is already in use
+---------------------------------------------------------------
+[ 2018-04-03T17:19:56+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:20:11+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:20:36+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015601s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bar_code LIMIT 0,10' at line 1
+---------------------------------------------------------------
+[ 2018-04-03T17:20:45+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:20:47+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bar_code LIMIT 0,10' at line 1
+---------------------------------------------------------------
+[ 2018-04-03T17:21:07+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:21:17+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:21:49+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:21:51+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bar_code LIMIT 0,10' at line 1
+---------------------------------------------------------------
+[ 2018-04-03T17:22:29+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:22:33+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bar_code LIMIT 0,10' at line 1
+---------------------------------------------------------------
+[ 2018-04-03T17:23:07+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:23:10+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sql' in 'where clause'
+---------------------------------------------------------------
+[ 2018-04-03T17:51:49+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:51:51+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ error ] [2]explode() expects parameter 2 to be string, object given
+---------------------------------------------------------------
+[ 2018-04-03T17:52:27+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:52:58+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:53:01+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ error ] [8]未定义变量: where
+---------------------------------------------------------------
+[ 2018-04-03T17:53:30+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:54:15+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:55:10+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:58:27+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015601s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T17:58:29+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ error ] [0]method not exist:think\db\Query->filed
+---------------------------------------------------------------
+[ 2018-04-03T18:01:09+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T18:01:11+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ error ] [0]method not exist:think\db\Query->filed
+---------------------------------------------------------------
+[ 2018-04-03T18:01:24+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T18:01:26+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ error ] [0]method not exist:think\db\Query->filed
+---------------------------------------------------------------
+[ 2018-04-03T18:01:48+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T18:01:51+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ error ] [0]method not exist:think\db\Query->filed
+---------------------------------------------------------------
+[ 2018-04-03T18:02:23+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T18:02:25+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ error ] [0]method not exist:think\db\Query->filed
+---------------------------------------------------------------
+[ 2018-04-03T18:02:52+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T18:02:54+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ error ] [0]method not exist:think\db\Query->filed
+---------------------------------------------------------------
+[ 2018-04-03T18:02:57+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ error ] [0]method not exist:think\db\Query->filed
+---------------------------------------------------------------
+[ 2018-04-03T18:02:59+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ error ] [0]method not exist:think\db\Query->filed
+---------------------------------------------------------------
+[ 2018-04-03T18:03:10+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ error ] [0]method not exist:think\db\Query->filed
+---------------------------------------------------------------
+[ 2018-04-03T18:03:13+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ error ] [0]method not exist:think\db\Query->filed
+---------------------------------------------------------------
+[ 2018-04-03T18:04:15+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T18:04:48+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ error ] [0]method not exist:think\db\Query->filed
+---------------------------------------------------------------
+[ 2018-04-03T18:05:24+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `bar_code` FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T18:05:51+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `bar_code` FROM `commodity` GROUP BY `bar_code` HAVING count(bar_code)>1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `bar_code` FROM `commodity` GROUP BY `bar_code` HAVING count(bar_code)>1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T18:06:16+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `bar_code` FROM `commodity` GROUP BY `bar_code` HAVING count(bar_code)>1 [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: offset
+---------------------------------------------------------------
+[ 2018-04-03T18:06:46+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `bar_code` FROM `commodity` GROUP BY `bar_code` HAVING count(bar_code)>1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T18:07:04+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `bar_code` FROM `commodity` GROUP BY `bar_code` HAVING count(bar_code)>1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T18:07:14+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `bar_code` FROM `commodity` GROUP BY `bar_code` HAVING count(bar_code)>1 [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bar_code LIMIT 0,10' at line 1
+---------------------------------------------------------------
+[ 2018-04-03T18:07:23+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ error ] [2]explode() expects parameter 2 to be string, object given
+---------------------------------------------------------------
+[ 2018-04-03T18:07:32+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ error ] [2]explode() expects parameter 2 to be string, object given
+---------------------------------------------------------------
+[ 2018-04-03T18:08:16+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+---------------------------------------------------------------
+[ 2018-04-03T18:08:26+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `bar_code` FROM `commodity` GROUP BY `bar_code` HAVING count(bar_code)>1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` WHERE  `bar_code` IN ('{\"bar_code\":\"111\"}','{\"bar_code\":\"222\"}') LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T18:08:47+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ error ] [2]explode() expects parameter 2 to be string, object given
+---------------------------------------------------------------
+[ 2018-04-03T18:09:05+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ error ] [2]explode() expects parameter 2 to be string, object given
+---------------------------------------------------------------
+[ 2018-04-03T18:09:34+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ error ] [2]explode() expects parameter 2 to be string, object given
+---------------------------------------------------------------
+[ 2018-04-03T18:09:52+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `bar_code` FROM `commodity` GROUP BY `bar_code` HAVING count(bar_code)>1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` WHERE  `bar_code` IN ('{\"bar_code\":\"111\"}','{\"bar_code\":\"222\"}') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T18:11:28+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `bar_code` FROM `commodity` GROUP BY `bar_code` HAVING count(bar_code)>1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` WHERE  `bar_code` IN ('{\"bar_code\":\"111\"}','{\"bar_code\":\"222\"}') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T18:11:55+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT `bar_code` FROM `commodity` GROUP BY `bar_code` HAVING count(bar_code)>1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-03T18:13:03+08:00 ] 192.168.70.101 GET /thinkphp_5/public/index.php/index/same/getSameList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `bar_code` FROM `commodity` GROUP BY `bar_code` HAVING count(bar_code)>1 [ RunTime:0.000000s ]

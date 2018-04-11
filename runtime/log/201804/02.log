@@ -1,0 +1,467 @@
+---------------------------------------------------------------
+[ 2018-04-02T10:56:00+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to undefined method app\index\controller\Login::ajaxReturn()
+---------------------------------------------------------------
+[ 2018-04-02T11:02:06+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to undefined method app\index\controller\Login::ajaxReturn()
+---------------------------------------------------------------
+[ 2018-04-02T11:02:19+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index/login/logincheck
+[ error ] [8]未定义数组索引: name
+---------------------------------------------------------------
+[ 2018-04-02T11:17:08+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to undefined method app\index\controller\Login::json()
+---------------------------------------------------------------
+[ 2018-04-02T11:17:48+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to undefined method app\index\controller\Login::json()
+---------------------------------------------------------------
+[ 2018-04-02T11:18:27+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'aaa' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to undefined method app\index\controller\Login::json()
+---------------------------------------------------------------
+[ 2018-04-02T11:22:10+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'assdd' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to undefined method app\index\controller\Login::ajaxReturn()
+---------------------------------------------------------------
+[ 2018-04-02T11:22:23+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index/login/logincheck
+[ error ] [8]未定义数组索引: name
+---------------------------------------------------------------
+[ 2018-04-02T11:26:37+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index/login/logincheck
+[ error ] [8]未定义数组索引: name
+---------------------------------------------------------------
+[ 2018-04-02T11:26:39+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index/login/logincheck
+[ error ] [8]未定义数组索引: name
+---------------------------------------------------------------
+[ 2018-04-02T11:27:06+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php?s=index/login/login
+[ error ] [2]Invalid argument supplied for foreach()
+---------------------------------------------------------------
+[ 2018-04-02T11:27:08+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php?s=index/login/login
+[ error ] [2]Invalid argument supplied for foreach()
+---------------------------------------------------------------
+[ 2018-04-02T11:27:20+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php?s=index/login/login
+[ error ] [0]致命错误: Call to undefined function app\index\controller\html()
+---------------------------------------------------------------
+[ 2018-04-02T11:28:57+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to undefined method app\index\controller\Login::ajaxReturn()
+---------------------------------------------------------------
+[ 2018-04-02T11:29:42+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to undefined method app\index\controller\Login::ajaxReturn()
+---------------------------------------------------------------
+[ 2018-04-02T11:30:20+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'qqq' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to undefined method app\index\controller\Login::ajaxReturn()
+---------------------------------------------------------------
+[ 2018-04-02T11:31:06+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'asw' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to undefined method app\index\controller\Login::json()
+---------------------------------------------------------------
+[ 2018-04-02T11:31:41+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'ass' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:32:37+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'asw' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:33:03+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'asw' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:34:42+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'asw' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:34:58+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'asw' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:35:05+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:35:24+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:41:02+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'asw' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:41:12+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:43:02+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:45:37+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:46:31+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:46:45+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:47:00+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:47:15+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:47:16+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:47:40+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:48:42+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T11:49:49+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T13:58:21+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index/login/logincheck
+[ error ] [8]未定义数组索引: name
+---------------------------------------------------------------
+[ 2018-04-02T14:06:25+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/index/index.html
+[ error ] [2]Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2018-04-02T14:06:31+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-04-02T14:06:31+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/index/index.html
+[ error ] [2]Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2018-04-02T14:06:49+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T14:06:49+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/index/index.html
+[ error ] [2]Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2018-04-02T14:07:00+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/index/index.html
+[ error ] [2]Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2018-04-02T14:07:25+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index/index/index.html
+[ error ] [2]Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2018-04-02T14:07:35+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index/index/index.html
+[ error ] [2]Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2018-04-02T14:07:44+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index/login/logincheck
+[ error ] [8]未定义数组索引: name
+---------------------------------------------------------------
+[ 2018-04-02T14:08:04+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T14:08:05+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/index/index.html
+[ error ] [2]Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2018-04-02T14:09:23+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php
+[ error ] [2]Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2018-04-02T14:09:45+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/index/index
+[ error ] [2]Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2018-04-02T14:09:58+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/index/index
+[ error ] [2]Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)
+---------------------------------------------------------------
+[ 2018-04-02T14:15:51+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commdity/commdity.html
+[ error ] [0]模板文件不存在:D:\qampp\htdocs\thinkphp_5\public/../application/index\view\commdity\commdity.html
+---------------------------------------------------------------
+[ 2018-04-02T14:16:03+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commdity/commdity.html
+[ error ] [0]模板文件不存在:D:\qampp\htdocs\thinkphp_5\public/../application/index\view\commdity\commdity.html
+---------------------------------------------------------------
+[ 2018-04-02T14:16:35+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commdity/commdity
+[ error ] [0]模板文件不存在:D:\qampp\htdocs\thinkphp_5\public/../application/index\view\commdity\commdity.html
+---------------------------------------------------------------
+[ 2018-04-02T14:18:48+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/index.html
+[ error ] [0]模板文件不存在:D:\qampp\htdocs\thinkphp_5\public/../application/index\view\commodity\index.html
+---------------------------------------------------------------
+[ 2018-04-02T14:18:51+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/index.html
+[ error ] [0]模板文件不存在:D:\qampp\htdocs\thinkphp_5\public/../application/index\view\commodity\index.html
+---------------------------------------------------------------
+[ 2018-04-02T14:18:52+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/index.html
+[ error ] [0]模板文件不存在:D:\qampp\htdocs\thinkphp_5\public/../application/index\view\commodity\index.html
+---------------------------------------------------------------
+[ 2018-04-02T14:19:08+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T14:19:08+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/index.html
+[ error ] [0]模板文件不存在:D:\qampp\htdocs\thinkphp_5\public/../application/index\view\commodity\index.html
+---------------------------------------------------------------
+[ 2018-04-02T14:19:19+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/index.html
+[ error ] [0]模板文件不存在:D:\qampp\htdocs\thinkphp_5\public/../application/index\view\commodity\index.html
+---------------------------------------------------------------
+[ 2018-04-02T16:36:18+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'ass' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T16:49:00+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList
+[ error ] [1]Class 'app\index\model\Common' not found
+---------------------------------------------------------------
+[ 2018-04-02T16:51:05+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [8]未定义数组索引: searchText
+---------------------------------------------------------------
+[ 2018-04-02T16:51:11+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [8]未定义数组索引: searchText
+---------------------------------------------------------------
+[ 2018-04-02T16:51:17+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList
+[ error ] [8]未定义数组索引: searchText
+---------------------------------------------------------------
+[ 2018-04-02T16:53:58+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T16:54:12+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: count
+---------------------------------------------------------------
+[ 2018-04-02T16:54:22+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `commodity` LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: count
+---------------------------------------------------------------
+[ 2018-04-02T16:59:00+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList
+[ error ] [0]method not exist:think\db\Query->total
+---------------------------------------------------------------
+[ 2018-04-02T16:59:04+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [0]method not exist:think\db\Query->total
+---------------------------------------------------------------
+[ 2018-04-02T16:59:21+08:00 ] 192.168.20.117 POST /thinkphp_5/public/index/login/logincheck
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T16:59:21+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [0]method not exist:think\db\Query->total
+---------------------------------------------------------------
+[ 2018-04-02T16:59:30+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [0]method not exist:think\db\Query->total
+---------------------------------------------------------------
+[ 2018-04-02T17:02:16+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:09:02+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:09:38+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:09:45+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:12:14+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:13:00+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:13:14+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:13:29+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:13:45+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:13:50+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:14:09+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:14:13+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:14:14+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=999
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:14:17+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:14:22+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=4901872888719
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:14:26+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:14:29+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:20:58+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [8]未定义数组索引: searchText
+---------------------------------------------------------------
+[ 2018-04-02T17:21:07+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [8]未定义数组索引: searchText
+---------------------------------------------------------------
+[ 2018-04-02T17:21:15+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [8]未定义数组索引: searchText
+---------------------------------------------------------------
+[ 2018-04-02T17:22:14+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [8]未定义数组索引: searchText
+---------------------------------------------------------------
+[ 2018-04-02T17:22:16+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [8]未定义数组索引: searchText
+---------------------------------------------------------------
+[ 2018-04-02T17:29:08+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=4
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2018-04-02T17:29:15+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=4
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2018-04-02T17:30:15+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=4
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2018-04-02T17:34:01+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=4
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2018-04-02T17:34:30+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [8]未定义数组索引: searchText
+---------------------------------------------------------------
+[ 2018-04-02T17:34:36+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=4
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2018-04-02T17:37:24+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [0]语法解析错误: syntax error, unexpected '—' (T_STRING)
+---------------------------------------------------------------
+[ 2018-04-02T17:38:12+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [8]未定义数组索引: searchText
+---------------------------------------------------------------
+[ 2018-04-02T17:38:28+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ error ] [8]未定义数组索引: searchText
+---------------------------------------------------------------
+[ 2018-04-02T17:38:50+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-04-02T17:50:25+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/commodity.html
+[ error ] [0]语法解析错误: syntax error, unexpected '.', expecting ']'
+---------------------------------------------------------------
+[ 2018-04-02T17:50:33+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=4
+[ error ] [0]语法解析错误: syntax error, unexpected '.', expecting ']'
+---------------------------------------------------------------
+[ 2018-04-02T18:06:09+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to a member function count() on array
+---------------------------------------------------------------
+[ 2018-04-02T18:07:44+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.000000s ]
+[ error ] [0]致命错误: Call to a member function count() on array
+---------------------------------------------------------------
+[ 2018-04-02T18:07:58+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2018-04-02T18:08:14+08:00 ] 192.168.20.117 GET /thinkphp_5/public/index.php/index/commodity/getList?pageNumber=1&pageSize=10&searchText=6921988370302
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=192.168.5.10;port=3306;dbname=packmanager;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `commodity` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `commodity` WHERE  `bar_code` = '6921988370302' [ RunTime:0.000000s ]
